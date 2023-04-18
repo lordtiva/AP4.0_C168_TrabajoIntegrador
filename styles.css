@@ -10,6 +10,8 @@ body {
   font-family: 'Merriweather', serif;
 }
 
+/* navbar */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -98,10 +100,12 @@ body {
   margin-right: 3vw;
 }
 
+/* hero*/
+
 .hero {
   width: 100%;
   height: 100vh;
-  background-image: url('/img/Las_juntas-Catamarca2.avif');
+  background-image: url('/img/Las_juntas-Catamarca.avif');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -151,9 +155,67 @@ body {
   line-height: 200%;
 }
 
+/* Content */
+
+.content {
+  position: relative;
+  margin: 4vw;
+}
+
+.content-tittle {
+  text-align: center;
+  font-size: 2.8rem;
+  margin-right: 30%;
+  margin-left: 30%;
+  margin-bottom: 4vh;
+}
+
+.content-desc {
+  font-size: 1.4rem;
+  line-height: 180%;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-bottom: 2vh;
+}
+
+.content2 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.content2 li {
+  margin: 2vw;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.content2 img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 5%;
+}
+.content2 li:hover {
+  text-decoration: underline;
+  text-decoration-color: #586ea8 ;
+}
 
 
+/* footer */
 
 .footer {
-  background-color: #cacaca;
+  background-color: #e2e2e2;
+  background-image: linear-gradient(rgba(50, 50, 50, 0), rgba(50, 50, 50, 0.8));
+  font-size: 0.9rem;
+}
+
+.copyright {
+  margin-top: 5vh;
+  font-size: 0.7rem;
+}
+
+h4 {
+  margin-bottom: 3vh;
 }
